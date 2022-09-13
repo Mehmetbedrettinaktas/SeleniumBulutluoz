@@ -14,6 +14,8 @@ public class C09_manageMethods {
         illeride wait konusunu daha genis olarak ele alacagiz
         Bir safa acilirken, ilk basta sayfanin icerisinde bulunan elementlere gore
         bir yukleme suresine ihtiyac vardir.
+        veya bir webelementinin kullanilabilmesi ve sayfadaki elementlere ulasim
+        icin bekelenecek MAXIMUM sureyi belirleme olanagi tanir
          */
     }
 }

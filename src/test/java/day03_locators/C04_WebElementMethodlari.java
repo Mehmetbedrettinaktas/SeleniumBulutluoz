@@ -22,12 +22,14 @@ public class C04_WebElementMethodlari {
         // 1- amazon.com adresine gidip arama kutusunu locate edin
         driver.get("https://www.amazon.com");
         WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
+
         // 2- arama kutusunun tagname'nin input oldugunu test edin
        String expectedTagName="input";
        String actualTagName= aramaKutusu.getTagName();
        if (expectedTagName.equals(actualTagName)){
            System.out.println("Tagename testi PASSED");
        }else System.out.println("Tagename testi FAILED");
+
         // 3- arama kutusunun name attribute'nun degerinin field-keywords oldugunu test edin
         String expectedNameDegeri= "field-keywords";
         String actualNameDegeri=aramaKutusu.getAttribute("name");
